@@ -1,0 +1,44 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 12px;
+}
+
+.title {
+	font-size: 24px; 
+	text-align: center; 
+	background-color: #afd7af;
+	padding: 8px;
+	font-family: 'Courier new', 'sans-serif';
+	margin-bottom: 8px;
+}
+
+.recipes {
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+.recipes ul li{
+	display: inline-block;
+	padding: 8px 16px;
+	margin: 8px; 
+	background-color: #afafff;
+	width: 150px;
+	text-align: center;
+	}
+
+.recipes ul li a {
+	color: black;
+	font-weight: bold;
+	
+	text-decoration: none;
+
+}
+
+
+
