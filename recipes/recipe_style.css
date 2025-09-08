@@ -1,0 +1,36 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	font-family: 'courier new', sans-serif;
+}
+
+.container {
+	margin: 8px;
+}
+
+.recipe-card {
+	width: 50%; 
+	margin: 0 auto;
+}
+
+.recipe-card > * {
+	margin-bottom: 8px;
+}
+
+.recipe-card .title {
+	text-align: center; 
+	font-size: 24px; 
+	margin-bottom: 8px;
+}
+
+.recipe-card img {
+	display: block;
+	margin: 8px auto; 
+	max-width: 100%; 
+	height: auto;
+}
+
+ul, ol {
+	list-style-position: inside;
+}
